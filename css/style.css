@@ -162,7 +162,7 @@ input.product:focus, .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel
 }
 header.our-header {
 
-height: 168px;
+height: 120px;
 
     clear: both;
 
@@ -176,7 +176,7 @@ height: 168px;
 
     position: relative;
 
-      top: 118px;
+      top:  75px;
 
     z-index: 9;
 
