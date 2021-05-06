@@ -283,8 +283,8 @@ height: 120px;
 .sh-prodt-card .img-card {
 
     min-height: 230px;
-
     position: relative;
+    max-height: 300px;
 
 }
 
@@ -294,11 +294,7 @@ height: 120px;
 
 }
 
-.sh-prodt-card {
 
-    margin: 0 10px;
-
-}
 
 .sh-prodt-card .over-sh-card {
 
