@@ -1067,7 +1067,11 @@ button.border.border-success.rounded.px-5.w-25.text-success.bg-transparent {
 .serach-bar a {
     transform: translate(-30%, -43%);
 }
-
+.shp-by-ct .col {
+    flex: 0 0 25%;
+    padding: 0 0.5rem;
+    margin: 0 auto 15px;
+}
   }
 
 @media (max-width: 414px){
