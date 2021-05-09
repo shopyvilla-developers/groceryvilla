@@ -5,16 +5,35 @@
     font-family:proxi;
 
 }
-
+ul{margin: auto;}
 body h1, h2, h3, h4, a, p, span, li, input, label{
-
     margin-bottom: 0 !important;
-
-     font-family:proxi !important;
-
+    font-family:proxi !important;
 }
-
-a:hover{
+.bg-1 {
+    background: #fcdede;
+}.bg-2 {
+    background: #fceec7;
+}.bg-3 {
+    background: #eafffa;
+}.bg-4 {
+    background: #e3edf7;
+}.bg-5 {
+    background: #70cae0;
+}.bg-6 {
+    background: #e7c79f;
+}.bg-7 {
+    background: #3dc1c3;
+}.bg-8 {
+    background: #b3e5fb;
+}.bg-9 {
+    background: #c4ecfd;
+}.bg-10 {
+    background: #ffd4d1;
+}.bg-11 {
+    background: #efd6da;
+}
+a, a:hover{
 
     text-decoration: none !important;
 
@@ -55,7 +74,9 @@ body{
     position: relative;
 
 }
-
+.ECom-site-logo img {
+    max-height: 50px;
+}
 
 
 /*@font-face{
@@ -135,17 +156,14 @@ input.product:focus, .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel
 }
 
 .serach-bar a {
-
     position: absolute;
-
     left: 5px;
-
     top: 50%;
-
     transform: translate(50%, -34%);
-
 }
-
+.hhhhhh select {
+    max-width: 60px;
+}
 .col-md-6.hhhhhh, .col-md-6.abyrtu {
     font-size: 14px;
     word-spacing: 4px;
@@ -160,28 +178,12 @@ input.product:focus, .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel
     background: #d2d7e0;
     display: inline-block;
 }
-header.our-header {
-
-height: 168px;
-
-    clear: both;
-
-}
-
 .main-daily-Menu {
-
     background-color: #fcfffa;
-
     box-shadow: rgb(230 233 238) 0px 1px 4px 2px;
-
     position: relative;
-
-      top: 118px;
-
     z-index: 9;
-
     width: 100%;
-
 }
 
 .navbar.desktop-head .product::placeholder{
@@ -195,32 +197,18 @@ height: 168px;
 }
 
 .main-daily-Menu .main-menu li.nav-item:hover .dropdown-menu {
-
     display: block !important;
-
     transition: 10s;
-
-        border: 0 !important;
-
     margin: 0 !important;
-
 }
 
 .desktop-head {
     box-shadow: rgb(230 233 238) 0px 2px 4px 0px;
-    position: fixed;
-    width: 100% !important;
-    z-index: 99;
-    background: #fff;
-    margin: 0 auto;
-    left: 0;
 }
 
 .desktop-head .product {
 
     border-color:rgb(210, 215, 224) !important;
-
-    box-shadow: rgb(230 233 238) 0px 1px 4px 2px;
 
     border-radius: 3px;
 
@@ -247,21 +235,12 @@ height: 168px;
 }
 
 .main-menu {
-
-    height: 48px;
-
     font-size: 15px;
-
     word-spacing: 5px;
-
 }
 
 .icon-content {
-
         font-size: 15px;
-
- 
-
 }
 
 .main-menu ul.nav.navbar-nav a {
@@ -277,51 +256,35 @@ height: 168px;
     margin-right: 11px;
 
 }
-
+.owl-stage-outer .row {
+    margin: auto;
+}
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.cart-daetail-product .product-img-sh img {
+    max-height: 120px;
+}
 /*---------------product -----------*/
 
 .sh-prodt-card .img-card {
-
     min-height: 230px;
-
-    position: relative;
-
+    overflow: hidden;
+    max-height: 300px;
 }
-
 .sh-card-text strong{
-
     color: #373b42;
-
 }
-
-.sh-prodt-card {
-
-    margin: 0 10px;
-
-}
-
 .sh-prodt-card .over-sh-card {
-
-    position: absolute;
-
+    display: inline-block;
     color: #fff;
-
-    height: 40px;
-
+    height: 24px;
     background: #2ea94a;
-
-        right: 15px;
-
     border-radius: 50%;
-
-    width: 40px;
-
-    text-align: center;
-
-    line-height: 44px;
-
-    bottom: 5px;
-
+    width: 24px;
+    float: right;
+    line-height: 28px;
+    font-size: 12px;
 }
 
 .sh-card-text strong {
@@ -621,9 +584,7 @@ section.wallet-sh-temp div#accordionExample button.btn i.fa.fa-times, section.wa
 }
 
 .shr-category  .nav-link.active, .shr-category .nav-link {
-    background-color: transparent !important;
-    color: #444;
-        padding: 3px 10px;
+    background-color: transparent !important;nav-link px-2 py-1 size-14 text-dark
 }
 .cart-daetail-product .switch input { 
   opacity: 0;
@@ -989,9 +950,7 @@ section.Product-pge a.nav-link {
 section.Product-pge .Specifications table tr:nth-child(odd){
 	background: #f8f9fa!important;
 }
-.border-success{
-	border: 1px solid #28a745!important;
-}
+
 .border-danger{
 	border: 1px solid #dc3545!important;
 }
@@ -1032,6 +991,15 @@ div#new-addressform .modal-content{
     background: #2ea94a;
     color: #fff !important;
 }
+
+.ad_crt {
+    bottom: 70px;
+}
+.ad_crt span.size-12 {
+    margin-top: 2px;
+    line-height: 10px;
+}
+
 @media only screen and (max-width: 1200px){
 	
 
@@ -1084,6 +1052,12 @@ section.banners-sh-delivery {
 	header .col-md-6.abyrtu ul.d-flex {
     justify-content: start !important;
 }
+.ECom-site-logo img {
+    max-height: 35px;
+}
+.sign-in {
+  display: none;
+}
 button.border.border-success.rounded.px-5.w-25.text-success.bg-transparent {
     padding: 0 !important;
     font-size: 13px;
@@ -1100,12 +1074,41 @@ button.border.border-success.rounded.px-5.w-25.text-success.bg-transparent {
 	.size-40{
 		font-size: 30px !important;
 	}
-    }
+.serach-bar a {
+    transform: translate(-30%, -43%);
+}
+.shp-by-ct .col {
+    flex: 0 0 25%;
+    padding: 0 0.5rem;
+    margin: 0 auto 20px;
+}
+.descrptn h4 {
+    font-size: 1.0625rem;
+    color: #1f1f1f;
+}
+
+
+
+
+}
 
 @media (max-width: 414px){
     button.float-right {
     font-size: 12px;
 }
+.shp-by-ct .col {
+    flex: 0 0 50%;
+}
+.sh-prodt-card .img-card {
+    min-height: 200px;
+    max-height: 220px;
+}
+}
+@media (max-width: 360px){
+.sh-prodt-card button {
+    font-size: 14px;
+}
+
 
 
 }

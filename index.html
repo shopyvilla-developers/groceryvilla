@@ -5,7 +5,6 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,57 +14,17 @@
 </head>
 
 <body>
-	<header class="our-header ">
-		<div class="container1">
-			<div class="row">
-				<nav class="navbar navbar-expand-lg py-3 d-block desktop-head navbar-light ">
+	<header class="our-header sticky-top">
+		<nav class="bg-white d-block desktop-head navbar navbar-expand-lg navbar-light py-md-2 p-1">
 					<div class="container1 d-block">
-						<div class="row mx-0">
-							<div class="col-md-6 hhhhhh">
-								<ul class="d-flex list-unstyled">
-									<li class="border-right">
-										<div class="selectdiv ">
-											<label>
-												<select class="border-0 bg-transparent"><i class="fa fa-angle-down"></i>
-													<option selected> UAE </option>
-													<option>Soudhi Araba</option>
-													<option>united Arabic</option>
-												</select>
-											</label>
-										</div>
-									</li>
-									<li class="ml-2"> <a href="#" class="text-dark">
-العربية</a> </li>
-								</ul>
-							</div>
-							<div class="col-md-6 abyrtu">
-								<ul class="d-flex list-unstyled" style="justify-content:flex-end;">
-									<li class="border-right">
-										<div class="selectdiv ">
-											<label>
-												<select class="border-0 bg-transparent"><i class="fa fa-angle-down"></i>
-													<option selected> Al Karma </option>
-													<<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13696.805023325709!2d75.86500349705793!3d30.881030492382244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a82fbe47b81b7%3A0x105c7f765fbb83a3!2sHotel%20Grand%20M%20Lajjo!5e0!3m2!1sen!2sin!4v1615969245530!5m2!1sen!2sin" width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-												</select>
-											</label>
-										</div>
-									</li>
-									<li class="ml-2"> <a href="#" class="text-dark"><i class="fa fa-truck" style="transform:rotatey(178deg);"></i>
-Earliest Delivery</a> </li>
-									<li> <a href="#" class="text-dark border border-muted rounded  d-inline-block py-1 px-2"><span class="font-weight-bold text-danger">
-tomorrow 18</span></a> </li>
-									<li> <a href="#" class="text-dark bg-muted py-1 px-2 rounded font-weight-bold">
-11am-7pm</a> </li>
-								</ul>
-							</div>
-						</div>
+						
 						<div class="row">
-							<div class="col-2 align-self-center text-left">
-								<div class="ECom-site-logo py-2">
-									<a href="#" class="text-center"> <img src="image/logo.svg" alt="site-logo" class="img-fluid"> </a>
+							<div class="col-md-2 col-3 align-self-center text-left px-md-3 p-0">
+								<div class="ECom-site-logo">
+									<a href="#" class="text-center"> <img src="image/logo.png" alt="site-logo" class="img-fluid"> </a>
 								</div>
 							</div>
-							<div class="col-7 align-self-center ">
+							<div class="align-self-center col-9 col-lg-7 col-md-7 ">
 								<div class="serach-bar w-100">
 									<a class="nav-link text-dark p-lg-0" href="#">
 										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search">
@@ -73,22 +32,39 @@ tomorrow 18</span></a> </li>
 											<path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" /> </svg>
 									</a>
 									<form class="form-inline my-2 my-lg-0">
-										<input class="product px-5 mr-sm-2 w-100 bg-transparent px-3 py-2 border-secondary border  align-middle" type="search" placeholder="Search for your favourite grocery items" aria-label="Search"> </form>
+										<input class="product px-md-5 px-4 mr-sm-2 w-100 bg-transparent px-3 py-2 border-secondary border  align-middle" type="search" placeholder="Search for your favourite grocery items" aria-label="Search"> </form>
 								</div>
 							</div>
-							<div class="col-3 align-self-center text-right">
+							<div class="col-3 sign-in  align-self-center text-right">
 								<div class="icon-content ">
-									<p><strong data-toggle="modal" data-target="#exampleModal" style="cursor: pointer;">Sign in </strong> <span class="text-muted">or </span><span class="text-success">
-	<strong data-toggle="modal" data-target="#exampleModal2" style="cursor: pointer;">Create account</strong>
-	</span></p>
+								    <a href="" class="text-dark">
+								    	<strong data-toggle="modal" data-target="#exampleModal">Sign in </strong> 
+								    </a>
+								    	<span class="text-muted">or </span>
+								    <a href="" class="text-dark">	
+										<strong data-toggle="modal" data-target="#exampleModal2">Create account</strong>
+									</a>
+										
+									
+									
 								</div>
 							</div>
 						</div>
 					</div>
 				</nav>
-			</div>
+		
+		
+	</header>
+	<div class="bg-white fixed-bottom mobile-menu py-2 shadow-sm w-100 d-lg-none d-block">
+		<ul class="list-unstyled m-0 p-0 d-flex justify-content-around">
+						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-home d-block size-20 " aria-hidden="true"></i><span class="d-block size-12">home</span> </a></li>
+						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-th d-block size-20" aria-hidden="true"></i><span class="d-block size-12">Categories</span> </a></li>
+						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-check-circle-o d-block size-20" aria-hidden="true"></i><span class="d-block size-12">My Items</span> </a></li>
+						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-user d-block size-20" aria-hidden="true"></i><span class="d-block size-12">My Account</span> </a></li>
+						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-shopping-cart d-block size-20" aria-hidden="true"></i><span class="d-block size-12">Cart</span> </a></li>
+					</ul>
 		</div>
-		<div class="main-daily-Menu">
+	<div class="main-daily-Menu d-lg-block d-md-none d-none">
 			<nav class="navbar navbar-expand-lg main-menu ">
 				<div class="container1">
 					<a class="navbar-toggler" type="a" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </a>
@@ -251,71 +227,84 @@ tomorrow 18</span></a> </li>
 				</div>
 			</nav>
 		</div>
-		<div class="container-fluid position-fixed bg-white py-2 shadow-sm mobile-menu" style="bottom: 0; z-index: 99">
-			<div class="row">
-				<div class="col-md-12">
-					<ul class="list-unstyled m-0 p-0 d-flex justify-content-around">
-						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-home d-block size-20 " aria-hidden="true"></i><span class="d-block size-12">home</span> </a></li>
-						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-th d-block size-20" aria-hidden="true"></i><span class="d-block size-12">Categories</span> </a></li>
-						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-check-circle-o d-block size-20" aria-hidden="true"></i><span class="d-block size-12">My Items</span> </a></li>
-						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-user d-block size-20" aria-hidden="true"></i><span class="d-block size-12">My Account</span> </a></li>
-						<li class="p-2 text-center"><a href="" class="text-dark"><i class="fa fa-shopping-cart d-block size-20" aria-hidden="true"></i><span class="d-block size-12">Cart</span> </a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- ---------------------------------banner head------------------- -->
 	<section class="sh-daily-bannr pt-1  text-center">
-		<a href="#" class="text-center"><img src="image/banner-head.jpg" class="img-fluid"></a>
 		<div class="container1">
 			<div class="row mt-1">
-				<div class="col-md-6 main-baner">
-					<a><img src="image/1.jpg" class="img-fluid h-100" alt="njj"></a>
+				<div class="col-md-6 main-baner mt-lg-0 mt-3">
+					<a><img src="image/1.jpg" class="img-fluid" alt="njj"></a>
 				</div>
-				<div class="col-md-6 px-2">
+				<div class="col-md-6 mt-lg-0 mt-3">
 					<div class="row">
-						<div class="col-md-6 sh-inside px-2">
-							<a class="mb-4 d-inline-block"><img src="image/2.jpg" class="img-fluid h-100" alt="njj"></a>
-							<a class=" d-inline-block"><img src="image/3.jpg" class="img-fluid h-100" alt="njj"></a>
+						<div class="col-6 sh-inside px-2 mb-2 mt-lg-0 mt-md-0">
+							<a><img src="image/2.jpg" class="img-fluid" alt="njj"></a>
 						</div>
-						<div class="col-md-6 sh-inside px-2">
-							<a class="mb-4 d-inline-block"><img src="image/4.jpg" class="img-fluid h-100" alt="njj"></a>
-							<a class="d-inline-block"><img src="image/5.jpg" class="img-fluid h-100" alt="njj"></a>
+						<div class="col-6 sh-inside px-2 mb-2 mt-lg-0 mt-md-0">
+							<a><img src="image/3.jpg" class="img-fluid" alt="njj"></a>
+						</div>
+						<div class="col-6 sh-inside px-2 mb-2 mt-lg-0 mt-md-0">
+							<a><img src="image/4.jpg" class="img-fluid" alt="njj"></a>
+						</div>
+						<div class="col-6 sh-inside px-2 mb-2 mt-lg-0 mt-md-0">
+							<a><img src="image/5.jpg" class="img-fluid" alt="njj"></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="sh-category-bannr pt-3">
-		<a href="#" class="text-center d-inline-block w-100"><img src="image/category.png" class="img-fluid"></a>
+	<section class="sh-category-bannr shp-by-ct pt-3">
 		<div class="container1">
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 pt-3">
-				<div class="col">
-					<a><img src="image/cat-1.png" class="img-fluid" alt="opop"></a>
+		<h3 class="text-dark sh-heading font-weight-bold my-3">Shop by Category</h3>
+			<div class="row pt-3 text-center">
+				<div class="col px-2">
+					<div class="bg-1 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-1.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/cat-2.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-2 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-2.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Diary & Eggs</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/cat-3.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-3 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-3.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/cat-4.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-4 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-4.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/cat-5.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-5 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-5.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/cat-6.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-6 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-6.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/cat-7.png" class="img-fluid" alt="opop"></a>
-				</div>
-				<div class="col">
-					<a><img src="image/cat-8.png" class="img-fluid" alt="opop"></a>
-				</div>
+				<div class="col px-2">
+					<div class="bg-7 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/cat-7.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
+				</div>					
 			</div>
 		</div>
 	</section>
@@ -323,273 +312,171 @@ tomorrow 18</span></a> </li>
 	<section class="sh-products-bannr py-5">
 		<div class="container1">
 			<h3 class="text-dark sh-heading font-weight-bold">Recommended for you</h3>
-			<div class="row row-cols-lg-8 row-cols-md-5 row-cols-sm-3 row-cols-2 pt-3">
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj">
-                                     <a href="" class="text-dark" data-toggle="modal" data-target="#new-addressform"><span class="over-sh-card"><i class="fa fa-plus"></i></span></a>
-                                     </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+			<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-2.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-3.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-4.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-5.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-6.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-7.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-2.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-3.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-4.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-5.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-6.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
 			</div>
 		</div>
 	</section>
 	<!-- --------------------top deals -------------------------------------- -->
 	<section class="sh-products-bannr py-5">
 		<div class="container1">
-			<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Top Deals</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-			<div class="row row-cols-lg-8 row-cols-md-5 row-cols-sm-3 row-cols-2 pt-3">
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+			<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Top Deals</h3> <a href="#"class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
+			<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-15.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-14.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-13.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-12.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-11.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Chicken Hot Dog 360g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-						</div>
-						</a>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">FreshToHome Premium Skinless Chicken Drumsticks 500g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Beef Cumberland Sausage 600g Pack of 10 </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-11.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-12.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-13.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-5.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-14.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
 			</div>
 		</div>
 	</section>
@@ -598,138 +485,91 @@ tomorrow 18</span></a> </li>
 		<div class="container1">
 			<a href="#" class="text-center d-inline-block w-100"><img src="image/banner-another.png" class="img-fluid"></a>
 			<div class="Value-sh-Packs pt-5 pb-3">
-				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Value Packs</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Value Packs</h3> 
+				<a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
+			<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-9.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-5.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-2.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/x.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N12280141A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-11.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
-			</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-5.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro-2.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/qq.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/x.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/qqq.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
+			</div>	
 		</div>
-	</section>
+	</div>
+</section>
 	<!-- ----------------------3 banners--------------- -->
 	<section class="banners-sh-delivery">
 		<div class="container1">
@@ -751,298 +591,208 @@ tomorrow 18</span></a> </li>
 		<div class="container1">
 			<div class="Value-sh-Packs pt-5 pb-3">
 				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Fresh produce</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/12.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+				<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/13.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/14.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/15.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/16.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/17.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/18.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/19.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/20.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
-			</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/12.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/13.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/14.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/15.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/17.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
+			</div>	
 		</div>
-	</section>
+	</div>
+</section>
 	<!-- -------------------meat products------------------------ -->
 	<section class="banner">
 		<div class="container1">
 			<div class="Value-sh-Packs pt-5 pb-3">
 				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Meat & seafood</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+					<div class="row pt-3">
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m6.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m2.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m2.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m3.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m3.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m4.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m4.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m5.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m1.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m6.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m6.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m7.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>	
+					</div>	
 			</div>
 		</div>
 	</section>
-	<section class="sh-category-bannr pt-3">
+
+
+	<section class="sh-category-bannr mt-md-2 pt-3">
 		<a href="#" class="text-center d-inline-block w-100"><img src="image/store.png" class="img-fluid"></a>
 		<div class="container1">
 			<div class="row row-cols-lg-7 row-cols-md-5 row-cols-sm-3 row-cols-2 pt-3 mx-0">
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/en_store-1004gourmet.png" class="img-fluid" alt="opop"></a>
 				</div>
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/en_store-karakoy2.png" class="img-fluid" alt="opop"></a>
 				</div>
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/en_store-organic5.png" class="img-fluid" alt="opop"></a>
 				</div>
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/en_store-sharjah4.png" class="img-fluid" alt="opop"></a>
 				</div>
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/en_store-waitrose5.png" class="img-fluid" alt="opop"></a>
 				</div>
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/store-barakat.png" class="img-fluid" alt="opop"></a>
 				</div>
-				<div class="col">
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
 					<a><img src="image/store-barakat1.png" class="img-fluid" alt="opop"></a>
 				</div>
+				<div class="col-3 col-lg-3 col-md-3 col-xl-2 mb-3">
+					<a><img src="image/store-barakat1.png" class="img-fluid" alt="opop"></a>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -1051,140 +801,93 @@ tomorrow 18</span></a> </li>
 		<div class="container1">
 			<div class="Value-sh-Packs pt-5 pb-3">
 				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Dairy and Egg</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+				<div class="row pt-3">
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m6.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m2.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m2.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m3.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m3.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m4.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m4.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m5.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m1.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m6.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/m6.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m7.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/m9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>	
+					</div>	
+				
 			</div>
 		</div>
 	</section>
 	<!-- ---------------------oraganic banner---------------------- -->
-	<section class="sh-category-bannr pt-3">
-		<a href="#" class="text-center d-inline-block w-100"><img src="image/fv.png" class="img-fluid"></a>
+	<section class="sh-category-bannr pt-3 mt-2">
+		<a href="#" class="text-center d-inline-block w-100 mb-3"><img src="image/fv.png" class="img-fluid"></a>
 		<div class="container1">
 			<div class="row row-cols-lg-4 row-cols-md-3  row-cols-2 pt-3 mx-0">
 				<div class="col">
@@ -1207,156 +910,128 @@ tomorrow 18</span></a> </li>
 		<div class="container1">
 			<div class="Value-sh-Packs pt-5 pb-3">
 				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Breakfast foods</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+					<div class="row pt-3">
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/qq.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/qqq.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/qqqq.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/qq.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/qqq.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/qqqq.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/qqqq.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>	
+					</div>			
 			</div>
 		</div>
 	</section>
 	<section class="sh-category-bannr pt-3">
-		<a href="#" class="text-center d-inline-block w-100"><img src="image/hc.png" class="img-fluid"></a>
+		<a href="#" class="text-center d-inline-block w-100 mb-4"><img src="image/hc.png" class="img-fluid"></a>
 		<div class="container1">
-			<div class="row row-cols-lg-5 row-cols-md-2  row-cols-2 pt-3 mx-0">
-				<div class="col">
-					<a><img src="image/in.png" class="img-fluid" alt="opop"></a>
+		<div class="row pt-3 text-center">
+				<div class="col px-2">
+					<div class="bg-1 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/in.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/it.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-2 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/it.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Diary &amp; Eggs</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/ea.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-3 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/ea.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/ch.png" class="img-fluid" alt="opop"></a>
+				<div class="col px-2">
+					<div class="bg-4 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/ch.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
 				</div>
-				<div class="col">
-					<a><img src="image/fi.png" class="img-fluid" alt="opop"></a>
-				</div>
+				<div class="col px-2">
+					<div class="bg-5 img-card mb-3 overflow-hidden p-3 rounded">
+						<a href="#"><img src="image/fi.png" class="img-fluid" alt="opop"></a>
+                    </div>
+                    <a href="#" class="py-2 text-dark font-weight-bold text-truncate">Fresh Produce</a>
+					
+				</div>					
 			</div>
 		</div>
 	</section>
@@ -1365,134 +1040,86 @@ tomorrow 18</span></a> </li>
 		<div class="container1">
 			<div class="Value-sh-Packs pt-5 pb-3">
 				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Beverages</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N12280141A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+					<div class="row pt-3">
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N12280141A_1.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N27672981A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N27672981A_1.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N31450700A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N31450700A_1.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N34328586A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N34328586A_1.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-16.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/pro-16.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/xx.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/xx.jpg" class="img-fluid" alt="jkjj">
 								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/ww.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/cat-3.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N34328586A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>	
+					</div>			
 			</div>
 		</div>
 	</section>
@@ -1516,136 +1143,88 @@ tomorrow 18</span></a> </li>
 	<section class="banner">
 		<div class="container1">
 			<div class="Value-sh-Packs pt-5 pb-3">
-				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Snacks</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N12280141A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N27672981A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N31450700A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N34328586A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-16.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/xx.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/ww.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/cat-3.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/N34328586A_1.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
+				<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Snacks</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>	
 			</div>
+			<div class="row pt-3">
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N12280141A_1.jpg" class="img-fluid" alt="jkjj">
+								</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N27672981A_1.jpg" class="img-fluid" alt="jkjj">
+								</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N31450700A_1.jpg" class="img-fluid" alt="jkjj">
+								</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/N34328586A_1.jpg" class="img-fluid" alt="jkjj">
+								</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/pro-16.jpg" class="img-fluid" alt="jkjj">
+								</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>
+						<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+							<div class="border p-2 rounded sh-prodt-card">
+								<div class="img-card mx-auto">
+									<img src="image/xx.jpg" class="img-fluid" alt="jkjj">
+								</div>
+								<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+								<p>₹ <strong>2.76</strong></p>
+								<p><del>₹ 98.9</del>
+									<span class="badge badge-danger badge-pill"> 26% off</span>
+								</p>
+								<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+							</div>
+						</div>	
+					</div>
 		</div>
 	</section>
 	<!-- ------------------------------------------------------------------------------ -->
@@ -1668,135 +1247,85 @@ tomorrow 18</span></a> </li>
 	<section class="sh-products-bannr py-5">
 		<div class="container1">
 			<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Top Deals</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-			<div class="row row-cols-lg-8 row-cols-md-5 row-cols-sm-3 row-cols-2 pt-3">
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+			<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-15.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-14.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-13.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-12.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-11.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Chicken Hot Dog 360g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-						</div>
-						</a>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">FreshToHome Premium Skinless Chicken Drumsticks 500g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Beef Cumberland Sausage 600g Pack of 10 </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/12.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/13.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/14.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/15.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/17.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
 			</div>
 		</div>
 	</section>
@@ -1817,138 +1346,88 @@ tomorrow 18</span></a> </li>
 		</div>
 	</section>
 	<!-- yyyyyyyyyyyyyyyyyyyyyy----------------------------- -->
-	<section class="sh-products-bannr py-5">
+<section class="sh-products-bannr py-5">
 		<div class="container1">
 			<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Top Deals</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-			<div class="row row-cols-lg-8 row-cols-md-5 row-cols-sm-3 row-cols-2 pt-3">
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+			<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-15.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-14.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-13.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-12.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-11.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Chicken Hot Dog 360g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-						</div>
-						</a>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">FreshToHome Premium Skinless Chicken Drumsticks 500g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Beef Cumberland Sausage 600g Pack of 10 </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/12.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/13.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/14.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/15.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/17.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
 			</div>
 		</div>
 	</section>
@@ -1972,231 +1451,130 @@ tomorrow 18</span></a> </li>
 	<section class="sh-products-bannr py-5">
 		<div class="container1">
 			<h3 class="text-dark sh-heading font-weight-bold d-inline-block">Top Deals</h3> <a class="bg-transparent px-3 py-2 text-success border border-success rounded d-inline-block float-right mr-2">View All</a>
-			<div class="row row-cols-lg-8 row-cols-md-5 row-cols-sm-3 row-cols-2 pt-3">
-				<div id="loop" class="owl-carousel owl-theme">
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
+			<div class="row pt-3">
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/pro.jpg" class="img-fluid" alt="jkjj">
 						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-15.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-14.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-13.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-12.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-11.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Chicken Hot Dog 360g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-						</div>
-						</a>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-9.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">FreshToHome Premium Skinless Chicken Drumsticks 500g </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro-8.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="sh-prodt-card">
-							<a href="#">
-								<div class="img-card mx-auto"> <img src="image/pro.jpg" class="img-fluid" alt="jkjj"> <span class="over-sh-card"><i class="fa fa-plus"></i></span> </div>
-								<div class="sh-card-text"> <span class="py-2"> Beef Cumberland Sausage 600g Pack of 10 </span>
-									<p><span>AED </span><strong>2.76</strong></p>
-									<p><del>AED 98.9</del><span class="sh-save text-white bg-danger"> 26% off</span></p>
-								</div>
-								<div class="sh-arrivals py-2" style="font-size:14px;">
-									<p><span class="text-muted"><i class="fa fa-rocket"></i></span> <span class="text-secondary">Arrives </span><strong class="text-success">Tomorrow</strong></p>
-								</div>
-							</a>
-						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
 					</div>
 				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/12.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/13.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/14.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/15.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>
+				<div class="col-6 col-lg-2 col-md-2 col-md-4 px-2 mb-3">
+					<div class="border p-2 rounded sh-prodt-card">
+						<div class="img-card mx-auto">
+							<img src="image/17.jpg" class="img-fluid" alt="jkjj">
+						</div>
+						<p class="py-2 text-truncate">YupFun Set Of 4 Home Spice Container1 Jars Clear 10x4x3inch</p>
+						<p>₹ <strong>2.76</strong></p>
+						<p><del>₹ 98.9</del>
+							<span class="badge badge-danger badge-pill"> 26% off</span>
+						</p>
+						<button class="bg-success border-success btn font-weight-bold mb-1 mt-3 text-center text-white w-100">Add to cart <span class="over-sh-card"><i class="fa fa-plus"></i></span></button>	 		
+					</div>
+				</div>	
 			</div>
 		</div>
 	</section>
+
 	<div class="d-inline-block text-center w-100 mx-auto"><img src="image/mn.jpg" class="img-fluid"></div>
-	<!-- footer -->
-	<footer class="bg-light pt-5">
-		<div class="container1">
-			<div class="row py-2 pb-4">
-				<div class="col-md-6 align-self-center"> <span class="d-inline-block bg-light1 p-2 mx-2 my-2"><a href="" class="text-dark d-flex"><i class="fa fa-info-circle border-right size-20 pr-2 align-self-center" aria-hidden="true"></i> <span class="text-muted size-12 px-2">HELP CENTER<br> <b class=" text-dark" style="font-size:15px"> help.noon.com</b></span></a>
-					</span> <span class="d-inline-block bg-light1 p-2 mx-2 my-2"><a href="" class="text-dark d-flex"><i class="fa fa-phone size-20  border-right pr-2 align-self-center" aria-hidden="true"></i> <span class="text-muted size-12 px-2">Phone Support<br> <b class=" text-dark" style="font-size:15px">80031111</b></span></a>
-					</span>
-				</div>
-				<div class="col-md-6 align-self-center py-3">
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<h5 class="">Shop on the go </h5> <img class="img-fluid d-inline-block py-1" src="image/appstore.jpg"> <img class="img-fluid d-inline-block py-1" src="image/playstore.jpg"> </div>
-						<div class="col-md-6 col-sm-6">
-							<h5 class="">Connect with us </h5>
-							<ul class="list-unstyled p-0 m-0">
-								<li class="d-inline-block py-2 px-3 bg-light1 rounded-circle text-center"><a href="" class="text-dark"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li class="d-inline-block py-2 px-3 bg-light1 rounded-circle text-center"><a href="" class="text-dark"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="d-inline-block py-2 px-3 bg-light1 rounded-circle text-center"><a href="" class="text-dark"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row py-4 border-top">
-				<div class="col-md-7">
-					<ul class="list-unstyled p-0 m-0">
-						<li class="d-inline-block px-2"><a href="" class="text-muted size-12">Career </a></li>
-						<li class="d-inline-block px-2"><a href="" class="text-muted size-12">Sell with us </a></li>
-						<li class="d-inline-block px-2"><a href="" class="text-muted size-12">Terms of Use </a></li>
-						<li class="d-inline-block px-2"><a href="" class="text-muted size-12">Terms of Sale </a></li>
-						<li class="d-inline-block px-2"><a href="" class="text-muted size-12">Privacy Policy</a></li>
-						<li class="d-inline-block px-2"><a href="" class="text-muted size-12">Consumer Rights</a></li>
-					</ul>
-				</div>
-				<div class="col-md-5">
-					<p class="d-inline-block text-muted size-12"> &#169; 2021 noon Daily. All Rights Reserved</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- -------------------  modal 4 sign-in------------------- -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered text-center">
-			<div class="modal-content border-0">
-				<button type="button" class="close modal-sh-clos" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-				<div class="text-center pt-5">
-					<h3 class="font-weight-light d-block">Welcome back!</h3>
-					<br>
-					<h3 class="d-block">Sign in to your account</h3> </div>
-				<div class="modal-body"> <span class="text-muted"> Don't have an account?<a href="#" class="text-secondary">Sign Up</a></span>
-					<form class="py-5 text-left">
-						<div class="form-group mb-3">
-							<label for="email" class="text-muted">Email</label>
-							<input type="email" name="email" class=" border-0 border-muted bg-transparent w-100 border-bottom " id="jhf"> </div>
-						<div class="form-group">
-							<label for="email" class="text-muted">Password</label>
-							<input type="password" name="email" class="border-bottom border-muted w-100 bg-transparent border-0" id="jhf"> </div>
-					</form>
-				</div>
-				<div class="modal-footer"> <a href="#" class="w-100 text-dark d-inline-block rounded bg-transparent text-center">SIGN IN</a> </div>
-			</div>
-		</div>
-	</div>
-	<!-- --------------------------------register -------------------- -->
-	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content border-0">
-				<button type="button" class="close modal-sh-clos" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-				<div class="text-center pt-5">
-					<h3 class="font-weight-light d-block">Welcome back!</h3>
-					<br>
-					<h3 class="d-block">Sign in to your account</h3> </div>
-				<div class="modal-body"> <span class="text-muted"> Don't have an account?<a href="#" class="text-secondary">Sign Up</a></span>
-					<form class="py-5 text-left">
-						<div class="form-group mb-3">
-							<label for="email" class="text-muted">Email</label>
-							<input type="email" name="email" class=" border-0 border-muted bg-transparent w-100 border-bottom " id="jhf"> </div>
-						<div class="form-group">
-							<label for="email" class="text-muted">Password</label>
-							<input type="password" name="email" class="border-bottom border-muted w-100 bg-transparent border-0" id="jhf"> </div>
-						<div class="form-group">
-							<label for="email" class="text-muted">FirstName</label>
-							<input type="text" name="email" class="border-bottom border-muted w-100 bg-transparent border-0" id="jhf"> </div>
-						<div class="form-group">
-							<label for="email" class="text-muted">Last Name</label>
-							<input type="text" name="email" class="border-bottom border-muted w-100 bg-transparent border-0" id="jhf"> </div>
-					</form>
-				</div>
-				<div class="modal-footer"> <a href="#" class="w-100 text-dark d-inline-block rounded bg-transparent text-center">CREATE AN ACCOUNT</a> </div>
-			</div>
-		</div>
-	</div>
+	<footer class="bg-light pt-5 d-md-block d-none">
+         <div class="container1">
+            <div class="row py-2 pb-4">
+               <div class="col-md-6 align-self-center">     <span class="d-inline-block bg-light1 p-2 mx-2 my-2"><a href="" class="text-dark d-flex"><i class="fa fa-info-circle border-right size-20 pr-2 align-self-center" aria-hidden="true"></i> <span class="text-muted size-12 px-2">HELP CENTER<br> <b class=" text-dark" style="font-size:15px"> help.noon.com</b></span></a></span>       <span class="d-inline-block bg-light1 p-2 mx-2 my-2"><a href="" class="text-dark d-flex"><i class="fa fa-phone size-20  border-right pr-2 align-self-center" aria-hidden="true"></i> <span class="text-muted size-12 px-2">Phone Support<br> <b class=" text-dark" style="font-size:15px">800 311 5611</b></span></a></span>    </div>
+               <div class="col-md-6 align-self-center py-3">
+                  <div class="row">
+                     <div class="col-md-6 col-sm-6">
+                        <h5 class="">Shop on the go </h5>
+                        <a href="#">
+                        <img class="img-fluid d-inline-block py-1" src="image/appstore.jpg"></a><a href="#">    <img class="img-fluid d-inline-block py-1" src="image/playstore.jpg"> 
+                        </a>            
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <h5 class="">Connect with us </h5>
+                        <ul class="list-unstyled p-0 m-0 social">
+                           <li class="d-inline-block py-2 px-3 bg-light1 rounded-circle text-center"><a href="" class="text-dark"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                           <li class="d-inline-block py-2 px-3 bg-light1 rounded-circle text-center"><a href="" class="text-dark"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                           <li class="d-inline-block py-2 px-3 bg-light1 rounded-circle text-center"><a href="" class="text-dark"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row py-4 border-top">
+               <div class="col-md-7">
+                  <ul class="list-unstyled p-0 m-0">
+                     <li class="d-inline-block px-2"><a href="" class="text-muted size-12">Career </a></li>
+                     <li class="d-inline-block px-2"><a href="" class="text-muted size-12">Sell with us </a></li>
+                     <li class="d-inline-block px-2"><a href="" class="text-muted size-12">Terms of Use </a></li>
+                     <li class="d-inline-block px-2"><a href="" class="text-muted size-12">Terms of Sale </a></li>
+                     <li class="d-inline-block px-2"><a href="" class="text-muted size-12">Privacy Policy</a></li>
+                     <li class="d-inline-block px-2"><a href="" class="text-muted size-12">Consumer Rights</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-5">
+                  <p class="d-inline-block text-muted size-12"> © 2021 noon Daily. All Rights Reserved</p>
+               </div>
+            </div>
+         </div>
+      </footer>
     
 <!-- Modal -->
 <div class="modal fade" id="new-addressform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
